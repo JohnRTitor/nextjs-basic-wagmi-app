@@ -2827,9 +2827,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nextjs-ethers-fcc@workspace:.":
+"nextjs-ethers-connect-app-fcc@workspace:.":
   version: 0.0.0-use.local
-  resolution: "nextjs-ethers-fcc@workspace:."
+  resolution: "nextjs-ethers-connect-app-fcc@workspace:."
   dependencies:
     "@eslint/eslintrc": "npm:^3"
     "@tailwindcss/postcss": "npm:^4"

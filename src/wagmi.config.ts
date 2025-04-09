@@ -8,6 +8,11 @@ declare module "wagmi" {
 }
 
 // environment variables are defined in .env.local
+// make sure to set them in your .env.local file
+// or on project's environment tab on Vercel
+/// @dev: On Next, these environment variables have to be named
+/// @ with the prefix NEXT_PUBLIC_, else they will not be available in the browser
+/// and only be available in the server-side environment
 const sepoliaRpcUrl = process.env.NEXT_PUBLIC_SEPOLIA_RPC_URL;
 const mainnetRpcUrl = process.env.NEXT_PUBLIC_MAINNET_RPC_URL;
 if (!sepoliaRpcUrl) {
